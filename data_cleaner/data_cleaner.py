@@ -202,7 +202,7 @@ class DataCleaner:
         return_img_mask_data=False,
         balance_classes=False,
         label="target_label",
-        scale=True,
+        scale=False,
         multiplicative_features=None,
         polynomial_features=None,
     ):
